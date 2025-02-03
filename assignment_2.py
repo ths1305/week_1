@@ -16,15 +16,20 @@ ASSIGNMENT GOAL:
 
 
 '''
+#str is string, any set of letters
+#int is integer, any whole number
+#float is float, any number w/ a decimal
+#bool is boolean, True or False
+#isinstance checks type and returns True or False
 
-name = str("Helen")
-age = int(20)
-height = float(5.3)
-is_student = bool(True)
+name = input('Enter your name:')
+print(isinstance(name,str)
+age = int(input('Enter your age:')
+height = input('Enter your height:')
+print(isinstance(height,float)
+is__student = bool(input('Are you a student?:')
 
-
-
-print(name,age,height,is_student)
+# displayValues(name,age,height,is_student)
 
 ##### ASSIGNMENT ENDS HERE #####
 
